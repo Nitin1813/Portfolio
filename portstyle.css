@@ -4,13 +4,43 @@
     width: 30%;
     float: left;
     background-color: #155e91;
-    height: 100vh;
+    height: 100%;
+}
+.Connect li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+.Connect ul{
+    font-weight: bold;
+}
+.bootcamp ul li{
+    list-style-type: none;
+    border-radius: 1px;
+    box-shadow:2px 2px 6px #333535;
+    width: 100px;
+    background-color: #eee;
+    text-align: center;
+    margin: 10px;
+}
+ /* .projects ul{
+    display: flex;
+   justify-content: space-between;
+} */
+.bootcamp ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.bootcamp{
+    border-top: 2px solid #ffffff;
 }
 #main{
     width: 70%;
   
     float: right;
-    height: 100vh;
+    height: 100%;
     background-color: #ffffff;
 }
 .portfolio{
@@ -23,6 +53,9 @@ body{
     margin: 0px;
     padding: 0;
     
+}
+.projects a{
+    color:#155e91 ;
 }
 img{
     height: 100%;
@@ -53,16 +86,16 @@ label{
     margin: 10px 5px;
     border-top:2px #ffffff solid ;
 }
-h4{
+#skills h3,.education h3{
     text-align: center;
 }
-ul{
+.work ul, #skills ul{
     
     list-style: none;    
     padding: 0%;
     
 }
-li{
+.work ul li, #skills ul li{
     display: inline-block;
     background-color: #3e98d7;
     border-radius: 5px 2px;
